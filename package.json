@@ -1,0 +1,14 @@
+{
+  "name": "openai_101",
+  "version": "0.0.1",
+  "description": "OpenAI 101 Series on using OpenAI ChatGPT, DALL·E, and other OpenAI endpoints",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@klueless-js/semantic-release-rubygem": "github:klueless-js/semantic-release-rubygem",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^21.0.7"
+  }
+}
