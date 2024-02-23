@@ -44,6 +44,12 @@ jobs:
         with:
           node-version: '18'
 
+    # If I want robotjs used by the image generation scripts used as part of the release process then the CI would need something like this
+    # - name: Install system dependencies for robotjs
+    #   run: |
+    #     sudo apt-get update
+    #     sudo apt-get install -y libxtst-dev libx11-dev
+
       - name: Cache node modules
         uses: actions/cache@v2
         id: cache-node-modules

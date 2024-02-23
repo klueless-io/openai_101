@@ -6,10 +6,10 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "commander": "^10.0.1",
-    "robotjs": "^0.6.0"
   },
   "devDependencies": {
+    "commander": "^10.0.1",
+    "robotjs": "^0.6.0",
     "@klueless-js/semantic-release-rubygem": "github:klueless-js/semantic-release-rubygem",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
