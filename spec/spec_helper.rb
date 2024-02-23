@@ -19,4 +19,11 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  # I enable tools during course development, this is not turned on in CI
+  if ENV['TOOLS_ENABLED'] == 'true'
+    config.filter_run :tools_enabled
+  else
+    config.filter_run_excluding :tools_enabled
+  end
 end

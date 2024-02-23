@@ -1,6 +1,15 @@
 # frozen_string_literal: true
 
+require 'clipboard'
+require 'openai'
 require 'openai_101/version'
+require 'mini_magick'
+
+require_relative 'openai_101/config/openai'
+require_relative 'openai_101/tools/webp_to_png'
+require_relative 'openai_101/tools/edl_to_chapters'
+require_relative 'openai_101/tools/file_content_gatherer'
+require_relative 'openai_101/tools/clean_ruby_errors'
 
 module Openai101
   # raise Openai101::Error, 'Sample message'

@@ -34,12 +34,16 @@ Gem::Specification.new do |spec|
     end
   end
 
+  spec.post_install_message = "Remember to run 'npm install' in the gem directory to install JavaScript dependencies. These are optional command line tools that can be helpful but not required"
+
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
   # spec.extensions    = ['ext/openai_101/extconf.rb']
 
+  spec.add_dependency 'clipboard', '~> 1'
+  spec.add_dependency 'dotenv', '~> 2'
   spec.add_dependency 'k_log', '~> 0'
-  # spec.add_dependency 'k_type', '~> 0'
-  # spec.add_dependency 'k_util', '~> 0'
+  spec.add_dependency 'mini_magick', '~> 4'
+  spec.add_dependency 'ruby-openai', '~> 6'
 end
