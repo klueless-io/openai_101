@@ -1,3 +1,12 @@
+# 1.0.0 (2024-02-23)
+
+
+### Bug Fixes
+
+* fix package json issue with CI ([dc7beed](https://github.com/klueless-io/openai_101/commit/dc7beedee8fd19a0a7cf60faef5c448e45b7d8c3))
+* handle openai access token in CI ([3203aec](https://github.com/klueless-io/openai_101/commit/3203aec3a21a51f97bb08fdb5582f3365d5a8e33))
+* testing with robotjs ([c2c5508](https://github.com/klueless-io/openai_101/commit/c2c5508eff3293237c1643c6169e66f55a7de155))
+
 ## [0.0.2](https://github.com/klueless-io/openai_101/compare/v0.0.1...v0.0.2) (2024-02-08)
 
 
